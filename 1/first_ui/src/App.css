@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 5rem;
 }
 
 
@@ -14,7 +15,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* 
+.main-window{
+  display: flex;
+  flex-direction: column;
+}  */
 
+.cards-section {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row;
+}
