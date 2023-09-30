@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .nav-item.active {
+    /* Style for the active tab */
+    border-bottom: 2px solid #ff9800;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-item:hover {
+    color: #ff9800;
+  }
+  
