@@ -19,10 +19,19 @@
 .main-window{
   display: flex;
   flex-direction: column;
-}  */
+}   */
 
 .cards-section {
+  /* margin:5rem; */
+  gap: 5px;
   display: flex;
   flex-wrap: wrap; 
   flex-direction: row;
+}
+
+.intermiadiate-section {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+
 }
