@@ -57,6 +57,46 @@ function App() {
   description="Another card example."
   imageUrl="https://via.placeholder.com/300x200"
 />
+<Card
+  title="Card 1"
+  description="This is a sample card."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 2"
+  description="Another card example."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 1"
+  description="This is a sample card."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 2"
+  description="Another card example."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 1"
+  description="This is a sample card."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 2"
+  description="Another card example."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 1"
+  description="This is a sample card."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
+<Card
+  title="Card 2"
+  description="Another card example."
+  imageUrl="https://via.placeholder.com/300x200"
+/>
           </div>
           <div className='document-section'>
           <DocumentCard

@@ -1,47 +1,46 @@
 /* DocumentCard.css */
 
 .document-card {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    height: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  .document-card img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .document-card-header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .document-card-header h3 {
-    margin-left: 10px;
-    font-size: 18px;
-  }
-  
-  .document-card-content {
-    padding: 10px;
-  }
-  
-  .document-card p {
-    margin: 10px 0;
-    font-size: 14px;
-  }
-  
-  .document-card a {
-    text-decoration: none;
-    color: #007bff; /* Link color */
-    font-weight: bold;
-  }
-  
-  .document-card a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.document-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.document-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.document-card-header h3 {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.document-card-content {
+  padding: 10px;
+}
+
+.document-card p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.document-card a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  font-weight: bold;
+}
+
+.document-card a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

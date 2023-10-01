@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     padding: 0;
+    gap:1rem;
   }
   
   .nav-item {
@@ -31,3 +32,6 @@
     color: #ff9800;
   }
   
+ /* .documentsName{
+    margin-left: 45%;
+  }  */
