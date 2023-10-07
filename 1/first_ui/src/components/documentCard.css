@@ -1,4 +1,3 @@
-/* DocumentCard.css */
 
 .document-card {
   
@@ -34,12 +33,12 @@
 
 .document-card a {
   text-decoration: none;
-  color: #007bff; /* Link color */
+  color: #007bff; 
   font-weight: bold;
 }
 
 .document-card a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
 
 .docImage{

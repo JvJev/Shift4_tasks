@@ -10,7 +10,7 @@ function NavBar() {
         <li className="nav-item1"><a href="/about">Directory</a></li>
         <li className="nav-item1"><a href="/services">Departments</a></li>
         <li className="nav-item1"><a href="/contact">Library</a></li>
-        <li className="search">WILL BE SEARCH BAR</li>
+        <li className="search"><input placeholder='Search'></input></li>
       </ul>
     </nav>
   );

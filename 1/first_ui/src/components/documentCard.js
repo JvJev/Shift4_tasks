@@ -8,7 +8,6 @@ function DocumentCard(props) {
         <img className='docImage' src={props.imageUrl} alt={props.title} />
         <h3>{props.title}</h3>
       </div>
-      
     </div>
   );
 }

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  margin: 5rem;
   background-color: rgb(223, 223, 223);
 }
 
@@ -16,25 +15,22 @@
   color: white;
 }
 
-/* 
-.main-window{
-  display: flex;
-  flex-direction: column;
-}   */
 
 .cards-section {
-  /* margin:5rem; */
   gap: 5px;
+  padding-left: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: top;
   justify-content: top;
+  padding-bottom: 50px;
 }
 
 .intermiadiate-section {
   display: flex;
   flex-direction: column;
   flex-direction: row;
+  padding-right: 50px;
 
 }

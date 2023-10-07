@@ -56,19 +56,9 @@ function NavBarTabs() {
           Documents
         </li>
         </div>
-
-        
-        {/* <li className='documentsName'>
-          Documents
-        </li> */}
       </ul>
-      
-      
-      
-        
-      
     </nav>
   );
-}
+};
 
 export default NavBarTabs;
