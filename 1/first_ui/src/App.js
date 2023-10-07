@@ -18,85 +18,74 @@ function App() {
           <div className="cards-section"> 
 
 <Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="News Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
+  category="News"
 />
 <Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Blog Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-ajZjGy-n83HzZUBG0BIKcphmP4qglQwOw&usqp=CAU"
+  category="Blog"
+
 />
 <Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsSTFi3_Es8k7P-zVwSR3O8j97qUnYO5_2w&usqp=CAU"
+  category="Chirps"
+
 />
 <Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Docs title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuLz4DcfyTG7yippB8YbDLAaavLtqefLaA&usqp=CAU"
+  category="Docs"
+
 />
 <Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Retail Issue"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfyj30U76KEq-bzQ6_FwtSHlINKN7kaW0qw&usqp=CAU"
+  category="Retail Details"
+
 />
 <Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="News Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
+  category="News"
 />
 <Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Blog Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-ajZjGy-n83HzZUBG0BIKcphmP4qglQwOw&usqp=CAU"
+  category="Blog"
+
 />
 <Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsSTFi3_Es8k7P-zVwSR3O8j97qUnYO5_2w&usqp=CAU"
+  category="Chirps"
+
 />
 <Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Docs title"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuLz4DcfyTG7yippB8YbDLAaavLtqefLaA&usqp=CAU"
+  category="Docs"
+
 />
 <Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
+  title="Retail Issue"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
+  imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfyj30U76KEq-bzQ6_FwtSHlINKN7kaW0qw&usqp=CAU"
+  category="Retail Details"
+
 />
-<Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
-<Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
-<Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
-<Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
-<Card
-  title="Card 1"
-  description="This is a sample card."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
-<Card
-  title="Card 2"
-  description="Another card example."
-  imageUrl="https://via.placeholder.com/300x200"
-/>
+
           </div>
           <div className='document-section'>
           <DocumentCard

@@ -4,11 +4,14 @@ import './card.css'; // Create a CSS file for styling
 function Card(props) {
   return (
     <div className="card">
+      <div className='catDiv'>
+        <p className='categoryStyle'> {props.category}</p>
+      </div>
+
       <img src={props.imageUrl} alt={props.title} />
+      <h3>{props.title}</h3>
       <div className="card-content">
-        <h3>{props.title}</h3>
         <p>{props.description}</p>
-        <p>Category: {props.category}</p>
         <a href={props.readMoreUrl} target="_blank" rel="noopener noreferrer">
           Read More
         </a>
