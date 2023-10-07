@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './navBarTabs.css';
 
 function NavBarTabs() {
-  const [activeTab, setActiveTab] = useState('home'); 
+  const [activeTab, setActiveTab] = useState('home');
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
@@ -42,23 +42,25 @@ function NavBarTabs() {
           Docs
         </li>
         <li
-          className={`nav-item ${activeTab === 'retail_details' ? 'active' : ''}`}
+          className={`nav-item ${
+            activeTab === 'retail_details' ? 'active' : ''
+          }`}
           onClick={() => handleTabClick('retail_details')}
         >
           Retail Details
         </li>
 
-        <div className='documentsName'>
-        <li
-          className={`nav-item ${activeTab === 'documents' ? 'active' : ''} ` }
-          onClick={() => handleTabClick('documents')}
-        >
-          Documents
-        </li>
+        <div className="documentsName">
+          <li
+            className={`nav-item ${activeTab === 'documents' ? 'active' : ''} `}
+            onClick={() => handleTabClick('documents')}
+          >
+            Documents
+          </li>
         </div>
       </ul>
     </nav>
   );
-};
+}
 
 export default NavBarTabs;
