@@ -50,14 +50,7 @@ function NavBarTabs() {
           Retail Details
         </li>
 
-        <div className="documentsName">
-          <li
-            className={`nav-item ${activeTab === 'documents' ? 'active' : ''} `}
-            onClick={() => handleTabClick('documents')}
-          >
-            Documents
-          </li>
-        </div>
+        
       </ul>
     </nav>
   );

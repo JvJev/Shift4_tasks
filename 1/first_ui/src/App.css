@@ -16,18 +16,34 @@
 
 .cards-section {
   gap: 5px;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: top;
-  justify-content: top;
-  padding-bottom: 50px;
+  /* justify-content: top; */
+  /* padding-bottom: 50px; */
 }
 
-.intermiadiate-section {
+.document-section {
   display: flex;
   flex-direction: column;
-  flex-direction: row;
   padding-right: 25px;
+}
+
+.main-window {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-window {
+  display: flex;
+  width: 25vw;
+  flex-direction: column;
+}
+
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
 }
