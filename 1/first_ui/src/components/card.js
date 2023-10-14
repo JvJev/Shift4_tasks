@@ -1,5 +1,6 @@
 import React from 'react';
 import './card.css';
+import DocumentCardSpecific from './documentCardSpecific.js';
 
 function Card(props) {
   return (
@@ -10,6 +11,9 @@ function Card(props) {
       </div>
       <img className="banner" src={props.banner} alt={props.banner} />
       <img src={props.imageUrl} alt={props.title} />
+      <div className="documentRender">
+        {props.documentRender ? <DocumentCardSpecific /> : null}
+      </div>
       <div className="card-content">
         <p>{props.description}</p>
         <a href={props.readMoreUrl}>Read More</a>

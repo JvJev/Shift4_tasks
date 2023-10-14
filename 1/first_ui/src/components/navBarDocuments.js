@@ -9,11 +9,11 @@ function NavBarDocuments() {
   };
 
   return (
-    <nav className="navbar">
-      <ul className="nav-list">
+    <nav className="navbar2">
+      <ul className="nav-list2">
       <li
-            className={`nav-item ${activeTab === 'documents' ? 'active' : ''} `}
-            onClick={() => handleTabClick('documents')}
+            className={`nav-item2 ${activeTab === 'documents2' ? 'active' : ''} `}
+            onClick={() => handleTabClick('documents2')}
           >
             Documents
           </li>

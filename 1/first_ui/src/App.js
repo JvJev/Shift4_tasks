@@ -20,6 +20,9 @@ function App() {
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
               imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
               category="News"
+              
+              documentRender="true"
+
               banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
             />
             <Card
