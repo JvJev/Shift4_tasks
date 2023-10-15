@@ -20,7 +20,7 @@
   }
   
   .card-content {
-    padding: 10px;
+    padding: 0px;
     text-align: left;
     margin: 10px;
 
@@ -41,36 +41,40 @@
   
   }
   
-  .card p {
+   p {
     margin-bottom: 10px;
-    background-color: blueviolet;
+    margin-top: 0px;
+
     align-items: center;
     font-size: 14px;
   }
   
   .card a {
     display: block;
-    text-align: center;
+    text-align: left;
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
+    margin: 10px;
   }
   
   .card a:hover {
     text-decoration: underline;
   }
   
-  .category-text {
-    background-color: rgb(29, 99, 42);
+  .category-text  {
+    margin: auto;
+    opacity: 75%;
+    background-color: rgb(167, 241, 241);
+    border-radius: 5px;
 
   }
   
   .category {
     position: absolute;
-    margin-left: 210px;
+    margin-left: 194px;
     opacity: 75%;
     background-color: rgb(167, 241, 241);
-    border-radius: 5px;
     padding: 5px;
     height: 20px;
     /* justify-content: center;
@@ -87,6 +91,10 @@
     
   
   }
+
+h4 {
+    margin-bottom: 0;
+}
 
   .document-card-header {
     display: flex;
