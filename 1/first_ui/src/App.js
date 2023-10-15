@@ -1,9 +1,10 @@
 import './App.css';
 import NavBar from './components/navBar.js';
 import NavBarTabs from './components/navBarTabs.js';
-import Card from './components/card.js';
+// import Card from './components/card.js';
 import DocumentCard from './components/documentCard.js';
 import NavBarDocuments from './components/navBarDocuments.js';
+import Card1 from './components/reworkedCards/card1.js';
 
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
         <div className="main-window">
           <NavBarTabs></NavBarTabs>
           <div className="cards-section">
-            <Card
+
+            <Card1></Card1>
+            {/* <Card
               title="News Title"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
               imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
@@ -110,7 +113,7 @@ function App() {
               imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfyj30U76KEq-bzQ6_FwtSHlINKN7kaW0qw&usqp=CAU"
               category="Retail Details"
               banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
+            /> */}
           </div>
         </div>
         <div className="side-window">
