@@ -5,7 +5,11 @@ import NavBarTabs from './components/navBarTabs.js';
 import DocumentCard from './components/documentCard.js';
 import NavBarDocuments from './components/navBarDocuments.js';
 import Card1 from './components/reworkedCards/card1.js';
-
+import Card2 from './components/reworkedCards/card2.js';
+import Card3 from './components/reworkedCards/card3.js';
+import Card4 from './components/reworkedCards/card4.js';
+import Card5 from './components/reworkedCards/card5.js';
+import Card6 from './components/reworkedCards/card6.js';
 
 function App() {
   return (
@@ -16,104 +20,12 @@ function App() {
         <div className="main-window">
           <NavBarTabs></NavBarTabs>
           <div className="cards-section">
-
             <Card1></Card1>
-            {/* <Card
-              title="News Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
-              category="News"
-              
-              documentRender="true"
-
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Blog Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-ajZjGy-n83HzZUBG0BIKcphmP4qglQwOw&usqp=CAU"
-              category="Blog"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsSTFi3_Es8k7P-zVwSR3O8j97qUnYO5_2w&usqp=CAU"
-              category="Chirps"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Docs title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuLz4DcfyTG7yippB8YbDLAaavLtqefLaA&usqp=CAU"
-              category="Docs"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Retail Issue"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfyj30U76KEq-bzQ6_FwtSHlINKN7kaW0qw&usqp=CAU"
-              category="Retail Details"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="News Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
-              category="News"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Blog Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-ajZjGy-n83HzZUBG0BIKcphmP4qglQwOw&usqp=CAU"
-              category="Blog"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-
-            <Card
-              title="Docs title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuLz4DcfyTG7yippB8YbDLAaavLtqefLaA&usqp=CAU"
-              category="Docs"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-
-            <Card
-              title="News Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4HYHebLeGC3gogO3Xhj_KP5_ngABuc-NRA&usqp=CAU"
-              category="News"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Blog Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-ajZjGy-n83HzZUBG0BIKcphmP4qglQwOw&usqp=CAU"
-              category="Blog"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsSTFi3_Es8k7P-zVwSR3O8j97qUnYO5_2w&usqp=CAU"
-              category="Chirps"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Docs title"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuLz4DcfyTG7yippB8YbDLAaavLtqefLaA&usqp=CAU"
-              category="Docs"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            />
-            <Card
-              title="Retail Issue"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae porttitor elit, nec laoreet orci."
-              imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfyj30U76KEq-bzQ6_FwtSHlINKN7kaW0qw&usqp=CAU"
-              category="Retail Details"
-              banner="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
-            /> */}
+            <Card2></Card2>
+            <Card3></Card3>
+            <Card4></Card4>
+            <Card5></Card5>
+            <Card6></Card6>F
           </div>
         </div>
         <div className="side-window">
