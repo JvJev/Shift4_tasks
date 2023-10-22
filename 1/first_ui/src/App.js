@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-
       <div className="main-wrapper">
         <div className="main-window">
           <NavBarTabs></NavBarTabs>

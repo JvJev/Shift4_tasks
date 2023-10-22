@@ -12,8 +12,9 @@
   }
   
   .card4 img {
-    max-width: 100%;
+    max-width: 108%;
     height: auto;
+    margin-left: -10px;
     object-fit: cover;
   }
   

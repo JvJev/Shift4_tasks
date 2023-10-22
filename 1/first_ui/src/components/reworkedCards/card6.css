@@ -11,8 +11,9 @@
   }
   
   .card6 img {
-    max-width: 100%;
+    max-width: 131.7%;
     height: auto;
+    margin-left: -20px;
     object-fit: cover;
   }
   

@@ -10,7 +10,7 @@ padding-bottom: 3px;
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .nav-item {
