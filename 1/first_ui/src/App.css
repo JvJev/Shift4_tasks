@@ -1,6 +1,9 @@
 .App {
+  margin: auto;
   text-align: center;
   background-color: rgb(223, 223, 223);
+  /*
+  width: 900px; */
 }
 
 .App-header {
@@ -15,38 +18,32 @@
 }
 
 .cards-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 5px;
-  /* padding-left: 100px; */
-  display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: row; */
-  align-items: top;
-  /* justify-content: top; */
-  /* padding-bottom: 50px; */
-  
-}
-
-.document-section {
-  display: flex;
-  flex-direction: column;
-  padding-right: 25px;
+  padding-left: 50px;
 }
 
 .main-window {
   display: flex;
   flex-direction: column;
-  
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.document-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
 }
 
 .side-window {
   display: flex;
   width: 25vw;
   flex-direction: column;
-}
-
-
-.main-wrapper {
-  display: flex;
-  flex-direction: row;
-  
 }

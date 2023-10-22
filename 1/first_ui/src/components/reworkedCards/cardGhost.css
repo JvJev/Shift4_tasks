@@ -1,47 +1,48 @@
-.card2 {
+.ghost {
   border-radius: 4px;
   margin: 10px;
   padding: 10px;
   width: 250px;
-  height: 200px;
+  height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: space-between;
+  opacity: 0%;
 }
 
-.card2 img {
+.ghost img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.card-content2 {
+.ghost-content {
   padding: 0px;
   text-align: left;
   margin: 10px;
 }
 
-.description2 {
+.ghost-description {
   text-align: left;
   align-items: left;
 }
 
-.card2 h3 {
+.ghost h3 {
   margin-left: 75px;
   font-size: 18px;
   text-align: center;
   position: absolute;
 }
 
-p {
+.ghost p {
   margin-bottom: 10px;
   margin-top: 0px;
   align-items: center;
   font-size: 14px;
 }
 
-.card2 a {
+.ghost a {
   display: block;
   text-align: left;
   color: #007bff;
@@ -50,27 +51,27 @@ p {
   margin: 10px;
 }
 
-.card2 a:hover {
+.ghost a:hover {
   text-decoration: underline;
 }
 
-.category-text2 {
+.ghost-category-text {
   margin: auto;
   opacity: 75%;
   background-color: rgb(167, 241, 241);
   border-radius: 5px;
 }
 
-.category2 {
+.ghost-category {
   position: absolute;
-  margin-left: 216px;
+  margin-left: 222px;
   opacity: 75%;
   background-color: rgb(167, 241, 241);
   padding: 5px;
   height: 20px;
 }
 
-.banner2 {
+.ghost-banner {
   padding: 0px;
   padding-top: 10px;
   padding-left: 10px;
@@ -82,21 +83,20 @@ h4 {
   margin-bottom: 0;
 }
 
-.document-card-header2 {
+.ghost-document-card-header {
   display: flex;
   align-items: center;
   text-align: center;
   margin-left: 10px;
-  border-bottom: 1px solid black;
   width: 82%;
   margin: 10px;
 }
 
-.document-card-header2 h3 {
+.ghost-document-card-header h3 {
   padding: 5px;
   font-size: 18px;
 }
 
-.card-title2 {
+.ghost-title {
   padding-left: 10px;
 }

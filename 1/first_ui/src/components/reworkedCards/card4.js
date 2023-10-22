@@ -9,7 +9,7 @@ function Card4() {
     <div className="card4">
       <h3 className="card-title4">Retail Admin</h3>
       <div className="category4">
-        <p className="category-text4">Category</p>
+        <p className="category-text4">News</p>
       </div>
 
       <img

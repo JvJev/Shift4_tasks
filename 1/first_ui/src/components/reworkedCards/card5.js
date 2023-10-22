@@ -6,9 +6,9 @@ import img2 from './images/img2.png';
 function Card5() {
   return (
     <div className="card5">
-      <h3 className="card-title5">Card Title</h3>
+      <h3 className="card-title5">Rob Roberts</h3>
       <div className="category5">
-        <p className="category-text5">Category</p>
+        <p className="category-text5">Chirp</p>
       </div>
 
       <img

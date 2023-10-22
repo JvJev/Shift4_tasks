@@ -6,9 +6,9 @@ import img4 from './images/img4.png';
 function Card7() {
   return (
     <div className="card6">
-      <h3 className="card-title6">Card Title</h3>
+      <h3 className="card-title6">Leadership team</h3>
       <div className="category6">
-        <p className="category-text6">Category</p>
+        <p className="category-text6">Blog</p>
       </div>
 
       <img
@@ -18,7 +18,7 @@ function Card7() {
       />
 
       <div className="card-content6">
-        <h4>Title here</h4>
+        <h4>Blog title</h4>
         <p className="description6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>

@@ -11,7 +11,7 @@ import Card4 from './components/reworkedCards/card4.js';
 import Card5 from './components/reworkedCards/card5.js';
 import Card6 from './components/reworkedCards/card6.js';
 import Card7 from './components/reworkedCards/card7.js';
-
+import CardGhost from './components/reworkedCards/cardGhost.js';
 
 function App() {
   return (
@@ -24,12 +24,12 @@ function App() {
           <div className="cards-section">
             <Card1></Card1>
             <Card2></Card2>
-            <Card3></Card3>
             <Card4></Card4>
-            <Card5></Card5>
+            <Card3></Card3>
             <Card6></Card6>
+            <Card5></Card5>
+            <CardGhost></CardGhost>
             <Card7></Card7>
-
           </div>
         </div>
         <div className="side-window">

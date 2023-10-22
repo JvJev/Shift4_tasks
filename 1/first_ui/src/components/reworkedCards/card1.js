@@ -4,9 +4,9 @@ import './card1.css';
 function Card1() {
   return (
     <div className="card">
-      <h3 className="card-title">Card Title</h3>
+      <h3 className="card-title">Leadership Team</h3>
       <div className="category">
-        <p className="category-text">Category</p>
+        <p className="category-text">Blog</p>
       </div>
 
       <img
@@ -16,7 +16,7 @@ function Card1() {
       />
 
       <div className="card-content">
-      <h4>Title here</h4>
+      <h4>Blog Title</h4>
         <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>

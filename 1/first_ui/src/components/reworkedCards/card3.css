@@ -1,5 +1,4 @@
 .card3 {
-  border: 1px solid rgb(50, 188, 73);
   border-radius: 4px;
   margin: 10px;
   padding: 10px;
@@ -64,7 +63,7 @@ p {
 
 .category3 {
   position: absolute;
-  margin-left: 194px;
+  margin-left: 216px;
   opacity: 75%;
   background-color: rgb(167, 241, 241);
   padding: 5px;
