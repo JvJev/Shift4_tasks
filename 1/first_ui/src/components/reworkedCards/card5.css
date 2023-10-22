@@ -4,9 +4,9 @@
     margin: 10px;
     padding: 10px;
     width: 250px;
-    height: auto;
+    height: 200px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(167, 241, 241);
     flex-direction: column;
     justify-content: space-between;
   }
@@ -18,9 +18,10 @@
   }
   
   .card-content5 {
-    padding: 0px;
-    text-align: left;
-    margin: 10px;
+    padding: 10px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
   }
   
   .description5 {
@@ -57,18 +58,17 @@
   
   .category-text5 {
     margin: auto;
-    opacity: 75%;
-    background-color: rgb(167, 241, 241);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
   }
   
   .category5 {
     position: absolute;
     margin-left: 194px;
-    opacity: 75%;
-    background-color: rgb(167, 241, 241);
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     height: 20px;
+
   }
   
   .banner5 {
@@ -100,5 +100,9 @@
   
   .card-title5 {
     padding-left: 10px;
+  }
+
+  .huge{
+    font-size: 120px;
   }
   

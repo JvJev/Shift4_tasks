@@ -1,10 +1,10 @@
 .card2 {
-  border: 1px solid rgb(179, 63, 63);
+  border: 1px solid rgb(50, 188, 73);
   border-radius: 4px;
   margin: 10px;
   padding: 10px;
   width: 250px;
-  height: auto;
+  height: 200px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);
   flex-direction: column;
@@ -28,7 +28,7 @@
   align-items: left;
 }
 
-.card h3 {
+.card2 h3 {
   margin-left: 75px;
   font-size: 18px;
   text-align: center;

@@ -10,6 +10,8 @@ import Card3 from './components/reworkedCards/card3.js';
 import Card4 from './components/reworkedCards/card4.js';
 import Card5 from './components/reworkedCards/card5.js';
 import Card6 from './components/reworkedCards/card6.js';
+import Card7 from './components/reworkedCards/card7.js';
+
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
             <Card3></Card3>
             <Card4></Card4>
             <Card5></Card5>
-            <Card6></Card6>F
+            <Card6></Card6>
+            <Card7></Card7>
+
           </div>
         </div>
         <div className="side-window">

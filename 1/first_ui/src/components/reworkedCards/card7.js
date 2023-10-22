@@ -1,9 +1,9 @@
 import React from 'react';
 import './card6.css';
-import img3 from './images/img3.png';
+import img4 from './images/img4.png';
 
 
-function Card6() {
+function Card7() {
   return (
     <div className="card6">
       <h3 className="card-title6">Card Title</h3>
@@ -26,7 +26,7 @@ function Card6() {
       <div className="document-card-header6">
         <img
           className="docImage6"
-          src={img3}
+          src={img4}
         alt=""
       />
     </div>
@@ -38,4 +38,4 @@ function Card6() {
   );
 }
 
-export default Card6;
+export default Card7;
