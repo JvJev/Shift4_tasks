@@ -44,7 +44,7 @@ p {
 .card2 a {
   display: block;
   text-align: left;
-  color: #007bff;
+  color:  rgb(167, 241, 241);
   text-decoration: none;
   font-weight: bold;
   margin: 10px;
