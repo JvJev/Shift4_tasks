@@ -21,14 +21,17 @@ function App() {
         <div className="main-window">
           <NavBarTabs></NavBarTabs>
           <div className="cards-section">
-            <Card1></Card1>
-            <Card2></Card2>
-            <Card4></Card4>
-            <Card3></Card3>
-            <Card6></Card6>
-            <Card5></Card5>
-            <CardGhost></CardGhost>
-            <Card7></Card7>
+            <div className="column">
+              <Card1></Card1>
+              <Card4></Card4>
+              <Card6></Card6>
+            </div>
+            <div className="column">
+              <Card3></Card3>
+              <Card2></Card2>
+              <Card5></Card5>
+              <Card7></Card7>
+            </div>
           </div>
         </div>
         <div className="side-window">
