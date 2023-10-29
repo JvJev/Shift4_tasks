@@ -20,7 +20,7 @@ padding-left: 165px;
 }
 
 .nav-item2.active {
-  border-bottom: 2px solid #ff9800;
+  color:   #ff0000;
 }
 
 .nav-item2 a {
