@@ -11,7 +11,7 @@
   }
   
   .card6 img {
-    max-width: 131.7%;
+    max-width: 130%;
     height: auto;
     margin-left: -20px;
     object-fit: cover;
@@ -64,8 +64,8 @@
   
   .category6 {
     position: absolute;
-    margin-left: 222px;
-    opacity: 75%;
+    margin-left: 278px;
+    opacity: 85%;
     background-color: rgb(167, 241, 241);
     padding: 5px;
     height: 20px;

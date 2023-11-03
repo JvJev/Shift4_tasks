@@ -38,7 +38,8 @@
 .document-section {
   display: flex;
   flex-direction: column;
-  padding-left: 75px;
+  /* padding-left: 75px; */
+  padding-left:20px;
 }
 
 .side-window {
