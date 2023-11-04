@@ -1,5 +1,5 @@
-1. NavBars lining issue
-2. make all cards with components proportionaly larger
+1. NavBars lining issue 
+2. make all cards with components proportionaly larger - done
 3. rework documets icons
 
 Optional (FE):

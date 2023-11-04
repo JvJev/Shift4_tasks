@@ -11,12 +11,13 @@ import Card4 from './components/reworkedCards/card4.js';
 import Card5 from './components/reworkedCards/card5.js';
 import Card6 from './components/reworkedCards/card6.js';
 import Card7 from './components/reworkedCards/card7.js';
-import CardGhost from './components/reworkedCards/cardGhost.js';
 
 function App() {
   return (
     <div className="App">
+      <div className='nav-bar-wrapper'>
       <NavBar></NavBar>
+      </div>
       <div className="main-wrapper">
         <div className="main-window">
           <NavBarTabs></NavBarTabs>
