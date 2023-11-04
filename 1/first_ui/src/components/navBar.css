@@ -1,10 +1,11 @@
 .navbar1 {
   background-color: rgb(255, 255, 255);
   color: white;
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto;
 }
 
 .nav-list1 {

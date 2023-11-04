@@ -1,6 +1,7 @@
-1. NavBars lining issue 
+1. NavBars lining issue - got better results but not ideal
 2. make all cards with components proportionaly larger - done
-3. rework documets icons
+3. rework documets icons - how to align text on top?
+
 
 Optional (FE):
 rework search bar to make it functional 
