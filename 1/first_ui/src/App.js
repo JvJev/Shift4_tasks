@@ -21,7 +21,10 @@ function App() {
           <NavBar></NavBar>
           <div className="navDiv">
             <NavBarTabs></NavBarTabs>
+            <div className='navBarDoc'>
             <NavBarDocuments></NavBarDocuments>
+
+            </div>
           </div>
           <div className="cards">
             <div className="cards-section">

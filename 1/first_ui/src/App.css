@@ -25,14 +25,16 @@
 }
 
 .cards{
-  display: flex;
+  display: inline;
   justify-content: space-between; 
 
 }
 
 .navDiv{
   display: flex;
-  justify-content:space-between
+}
+.navBarDoc{
+width: auto
 }
 
 .main-window {
