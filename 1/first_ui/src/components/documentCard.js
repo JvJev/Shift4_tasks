@@ -4,7 +4,7 @@ import './documentCard.css';
 function DocumentCard(props) {
   return (
     <div className="document-card">
-      <div className="document-card-header">
+      <div className="document-card-header1">
         <img className="docImage" src={props.imageUrl} alt={props.title} />
         <h3>{props.title}</h3>
       </div>

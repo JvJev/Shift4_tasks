@@ -1,8 +1,7 @@
 .App {
   margin: auto;
   text-align: center;
-  background-color: rgb(223, 223, 223);
-  
+  background-color: rgb(255, 255, 255);
 }
 
 .App-header {
@@ -19,27 +18,45 @@
 .cards-section {
   display: flex;
   grid-template-columns: 40%;
-  gap: 5px;
+  gap: 50px;
   padding-left: 50px;
-  justify-content: space-between; 
+  padding-right: 50px;
+
+  justify-content: space-between;
+  background-color: rgb(223, 223, 223);
+
+
 }
 
-.cards{
-  display: inline;
-  justify-content: space-between; 
-
-}
-
-.navDiv{
+.cards {
   display: flex;
+  background-color: rgb(223, 223, 223);
+  gap:50px
+
+
 }
-.navBarDoc{
-width: auto
+
+.navDiv {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  gap: 50px;
+  background-color: rgb(223, 223, 223);
+
+
+}
+.navBarDoc {
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  
+
 }
 
 .main-window {
   display: flex;
   flex-direction: column;
+
 }
 
 .main-wrapper {
@@ -49,22 +66,23 @@ width: auto
   margin: auto;
 
 }
-.nav-bar-wrapper{
+.nav-bar-wrapper {
   display: flex;
   justify-content: center;
   margin: auto;
+
 }
 
 .document-section {
   display: flex;
   flex-direction: column;
   /* padding-left: 75px; */
-  padding-left:20px;
-}
 
+}
+/* 
 .side-window {
   display: flex;
   width: 25vw;
   flex-direction: column;
-  /* align-items: flex-end; */
-}
+
+} */

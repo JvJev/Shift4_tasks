@@ -2,7 +2,7 @@
   background-color: rgb(223, 223, 223);
   color: rgb(0, 0, 0);
   padding: 10px;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(202, 202, 202);
 padding-bottom: 3px;
 }
 
@@ -15,7 +15,10 @@ padding-bottom: 3px;
 
 .nav-item {
   margin: 0 10px;
+  width: 3.5rem;
   cursor: pointer;
+  font-weight: bold;
+
 }
 
 .nav-item.active {
