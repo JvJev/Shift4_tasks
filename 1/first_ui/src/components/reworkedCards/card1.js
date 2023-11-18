@@ -1,5 +1,7 @@
 import React from 'react';
 import './card1.css';
+import black from './images/black.jpg';
+
 
 function Card1() {
   return (
@@ -13,7 +15,7 @@ function Card1() {
       </div>
       <img
         className="banner"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
+        src={black}
         alt="Banner Alt Text"
       />
 

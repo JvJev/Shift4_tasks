@@ -2,6 +2,8 @@ import React from 'react';
 import './card4.css';
 import img1 from './images/img1.png';
 import bankView from './images/bankView.png';
+import black from './images/black.jpg';
+
 
 function Card4() {
   return (

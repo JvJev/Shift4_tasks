@@ -1,6 +1,8 @@
 import React from 'react';
 import './card6.css';
 import img3 from './images/img3.png';
+import black from './images/black.jpg';
+
 
 function Card6() {
   return (
@@ -14,7 +16,7 @@ function Card6() {
 
       <img
         className="banner6"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGjkKoGoxsmA4JAGcnjposFkwFLeLLNkDqg&usqp=CAU"
+        src={black}
         alt="Banner Alt Text"
       />
 
