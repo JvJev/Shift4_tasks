@@ -4,7 +4,9 @@ import './card3.css';
 function Card3() {
   return (
     <div className="card3">
-      <h3 className="card-title3">Leadership team</h3>
+      <h3 className="card-title3">
+        Leadership team <p className="date">8.20.15</p>
+      </h3>
       <div className="category3">
         <p className="category-text3">News</p>
       </div>
@@ -21,7 +23,7 @@ function Card3() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
-      
+
       <div className="documentRender3"></div>
       <a href="#" className="read-more3">
         Read More

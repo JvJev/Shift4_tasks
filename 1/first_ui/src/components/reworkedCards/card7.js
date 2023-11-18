@@ -2,11 +2,12 @@ import React from 'react';
 import './card6.css';
 import img4 from './images/img4.png';
 
-
 function Card7() {
   return (
     <div className="card6">
-      <h3 className="card-title6">Leadership team</h3>
+      <h3 className="card-title6">
+        Leadership team<p className="date">8.20.15</p>
+      </h3>
       <div className="category6">
         <p className="category-text6">Blog</p>
       </div>
@@ -24,17 +25,13 @@ function Card7() {
         </p>
       </div>
       <div className="document-card-header6">
-        <img
-          className="docImage6"
-          src={img4}
-        alt=""
-      />
+        <img className="docImage6" src={img4} alt="" />
+      </div>
+      <div className="documentRender6"></div>
+      <a href="#" className="read-more6">
+        Read More
+      </a>
     </div>
-    <div className="documentRender6"></div>
-    <a href="#" className="read-more6">
-      Read More
-    </a>
-  </div>
   );
 }
 
