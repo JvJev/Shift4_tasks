@@ -1,51 +1,51 @@
-.document-card1 {
+.document-cardS {
   margin: 10px;
   padding: 10px;
   width: 300px;
   height: auto;  
 }
 
-.document-card1 img {
+.document-cardS img {
   max-width: 100%;
   height: auto;
   
 }
 
-.document-card-header1 {
+.document-card-headerS {
   display: flex;
   align-items: center;
 }
 
-.document-card-header1 h3 {
+.document-card-headerS h3 {
   margin-left: 10px;
   font-size: 18px;
 }
 
-.card-content1 {
+.card-contentS {
   padding: 10px;
   display: flex;
   
 }
 
-.document-card1 p {
+.document-cardS p {
   margin: 10px 0;
   font-size: 14px;
 }
 
-.document-card1 a {
+.document-cardS a {
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
 }
 
-.document-card1 a:hover {
+.document-cardS a:hover {
   text-decoration: underline;
 }
 
-.docImage1 {
+.docImageS {
   width: 50px;
   border-radius: 5px;
 }
-.document-card1{
+.document-cardS{
   background-color: blueviolet;
 }

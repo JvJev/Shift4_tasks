@@ -2,6 +2,7 @@ import React from 'react';
 import './card.css';
 import DocumentCardSpecific from './documentCardSpecific.js';
 
+
 function Card(props) {
   return (
     <div className="card">
