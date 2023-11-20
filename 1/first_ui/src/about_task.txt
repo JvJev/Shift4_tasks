@@ -1,0 +1,18 @@
+Technologies: react ; CSS ; NPM ; chatGPT ; google chrome web console ; 
+
+Work time in total: ~20-30 hours
+
+Workflow:
+1. (atempt 1)
+Created visual UI with logic in mind to build components "from top to bottom".
+Navigations bars have minimal visual effects click and hoover. 
+What was possible generated components with chatGPT. Idea was to render same components with different data. Acheved result with document components.
+Cards components became too complicated, so reworked them.
+2. (atempt 2)
+Reworked all cards components individually. Visuals are "hardcoded" and nothing is dynamicaly rendered.
+After main structure of the page done all CSS detailing completed.
+
+Main challenges:
+1. Keep the main structure and correct allignement of all components.
+2. Rework navBars correctly in flexbox.
+3. CSS hell.

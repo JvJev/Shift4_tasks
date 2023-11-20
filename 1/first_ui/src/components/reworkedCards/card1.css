@@ -45,7 +45,7 @@ p {
 .card a {
   display: block;
   text-align: left;
-  color:  rgb(167, 241, 241);
+  color: rgb(167, 241, 241);
   text-decoration: none;
   font-weight: bold;
   margin: 10px;
@@ -104,26 +104,24 @@ h4 {
   padding-left: 20px;
 }
 
-.date{
+.date {
   display: flex;
   font-weight: lighter;
-  
 }
 
-.imageInsideCard{
+.imageInsideCard {
   width: 35px;
   border-radius: 5px;
-  padding:5px;
+  padding: 5px;
   margin: 0;
   display: flex;
-  
 }
 
-.specificDocName{
+.specificDocName {
   margin-top: 0px;
 }
 
-.filenamePPTX{
+.filenamePPTX {
   display: flex;
   flex-direction: column;
   margin: 0;

@@ -2,13 +2,12 @@
   margin: 10px;
   padding: 10px;
   width: 300px;
-  height: auto;  
+  height: auto;
 }
 
 .document-cardS img {
   max-width: 100%;
   height: auto;
-  
 }
 
 .document-card-headerS {
@@ -24,7 +23,6 @@
 .card-contentS {
   padding: 10px;
   display: flex;
-  
 }
 
 .document-cardS p {
@@ -46,6 +44,6 @@
   width: 50px;
   border-radius: 5px;
 }
-.document-cardS{
+.document-cardS {
   background-color: blueviolet;
 }

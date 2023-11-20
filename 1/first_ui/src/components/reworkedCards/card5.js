@@ -6,14 +6,15 @@ function Card5() {
   return (
     <div className="card5">
       <h3 className="card-title5">
-        Rob Roberts <p className="date">Account Exec. <br></br> 10.28.15</p>
+        Rob Roberts{' '}
+        <p className="date">
+          Account Exec. <br></br> 10.28.15
+        </p>
       </h3>
       <div className="category5">
         <p className="category-text5">Chirp</p>
       </div>
-
       <img className="banner5" src={img2} alt="Banner Alt Text" />
-
       <div className="card-content5">
         <p className="huge">"</p>
         <p className="description5">

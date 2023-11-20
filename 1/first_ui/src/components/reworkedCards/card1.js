@@ -2,7 +2,6 @@ import React from 'react';
 import './card1.css';
 import black from './images/black.jpg';
 
-
 function Card1() {
   return (
     <div className="card">
@@ -13,12 +12,7 @@ function Card1() {
       <div className="category">
         <p className="category-text">Blog</p>
       </div>
-      <img
-        className="banner"
-        src={black}
-        alt="Banner Alt Text"
-      />
-
+      <img className="banner" src={black} alt="Banner Alt Text" />
       <div className="card-content">
         <h4>Blog Title</h4>
         <p className="description">

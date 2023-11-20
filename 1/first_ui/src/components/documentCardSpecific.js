@@ -1,7 +1,4 @@
 import React from 'react';
-// import './documentCardSpecific.css';
-// import DocumentCard from './documentCard.js';
-// import './documentCardSpecific.css';
 import './documentCard.css';
 
 function DocumentCardSpecific(props) {
@@ -17,16 +14,8 @@ function DocumentCardSpecific(props) {
           <h3>File name</h3>
         </div>
       </div>
-
-      
     </div>
   );
 }
 
 export default DocumentCardSpecific;
-
-// <DocumentCard
-//                 title="Bank benefits form"
-//                 imageUrl=""
-//                 documentUrl="https://example.com/document1.pdf"
-//               />

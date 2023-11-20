@@ -2,7 +2,6 @@ import React from 'react';
 import './card3.css';
 import grey from './images/grey.jpg';
 
-
 function Card3() {
   return (
     <div className="card3">
@@ -13,11 +12,7 @@ function Card3() {
         <p className="category-text3">News</p>
       </div>
 
-      <img
-        className="banner3"
-        src={grey}
-        alt="Banner Alt Text"
-      />
+      <img className="banner3" src={grey} alt="Banner Alt Text" />
 
       <div className="card-content3">
         <h4>News title here</h4>

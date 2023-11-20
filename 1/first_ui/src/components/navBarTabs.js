@@ -49,8 +49,6 @@ function NavBarTabs() {
         >
           Retail Details
         </li>
-
-        
       </ul>
     </nav>
   );

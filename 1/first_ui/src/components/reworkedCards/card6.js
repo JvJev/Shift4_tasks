@@ -3,7 +3,6 @@ import './card6.css';
 import img3 from './images/img3.png';
 import black from './images/black.jpg';
 
-
 function Card6() {
   return (
     <div className="card6">
@@ -13,13 +12,7 @@ function Card6() {
       <div className="category6">
         <p className="category-text6">Blog</p>
       </div>
-
-      <img
-        className="banner6"
-        src={black}
-        alt="Banner Alt Text"
-      />
-
+      <img className="banner6" src={black} alt="Banner Alt Text" />
       <div className="card-content6">
         <h4>Blog title</h4>
         <p className="description6">

@@ -6,7 +6,6 @@
   padding-bottom: 25px;
   padding-left: 5px;
   justify-content: center;
-
 }
 
 .nav-list2 {
@@ -15,7 +14,6 @@
   justify-content: left;
   gap: 5rem;
   font-weight: bold;
-
 }
 
 .nav-item2 {
@@ -24,7 +22,7 @@
 }
 
 .nav-item2.active {
-  color: #ff0000;
+  color: #000000;
 }
 
 .nav-item2 a {

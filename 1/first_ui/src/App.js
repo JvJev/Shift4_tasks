@@ -15,15 +15,13 @@ import Card7 from './components/reworkedCards/card7.js';
 function App() {
   return (
     <div className="App">
-      <div className="nav-bar-wrapper">{/* <NavBar></NavBar> */}</div>
       <div className="main-wrapper">
         <div className="main-window">
           <NavBar></NavBar>
           <div className="navDiv">
             <NavBarTabs></NavBarTabs>
-            <div className='navBarDoc'>
-            <NavBarDocuments></NavBarDocuments>
-
+            <div className="navBarDoc">
+              <NavBarDocuments></NavBarDocuments>
             </div>
           </div>
           <div className="cards">
@@ -41,54 +39,51 @@ function App() {
               </div>
             </div>
             <div className="document-section">
-              
-                <DocumentCard
-                  title="Bank benefits form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726016.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-
-                <DocumentCard
-                  title="Customer form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-                <DocumentCard
-                  title="Bank presentation"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
-                  documentUrl="https://example.com/document2.pdf"
-                />
-                <DocumentCard
-                  title="Bank benefits form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-                <DocumentCard
-                  title="Bank service prices"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                  documentUrl="https://example.com/document2.pdf"
-                />
-                 <DocumentCard
-                  title="Customer form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-                <DocumentCard
-                  title="Bank presentation"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
-                  documentUrl="https://example.com/document2.pdf"
-                />
-                <DocumentCard
-                  title="Bank benefits form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-                 <DocumentCard
-                  title="Customer form"
-                  imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                  documentUrl="https://example.com/document1.pdf"
-                />
-              
+              <DocumentCard
+                title="Bank benefits form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726016.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
+              <DocumentCard
+                title="Customer form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
+              <DocumentCard
+                title="Bank presentation"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
+                documentUrl="https://example.com/document2.pdf"
+              />
+              <DocumentCard
+                title="Bank benefits form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
+              <DocumentCard
+                title="Bank service prices"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
+                documentUrl="https://example.com/document2.pdf"
+              />
+              <DocumentCard
+                title="Customer form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
+              <DocumentCard
+                title="Bank presentation"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
+                documentUrl="https://example.com/document2.pdf"
+              />
+              <DocumentCard
+                title="Bank benefits form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
+              <DocumentCard
+                title="Customer form"
+                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
+                documentUrl="https://example.com/document1.pdf"
+              />
             </div>
           </div>
         </div>

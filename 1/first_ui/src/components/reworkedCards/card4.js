@@ -2,8 +2,6 @@ import React from 'react';
 import './card4.css';
 import img1 from './images/img1.png';
 import bankView from './images/bankView.png';
-import black from './images/black.jpg';
-
 
 function Card4() {
   return (
@@ -14,11 +12,9 @@ function Card4() {
       <div className="category4">
         <p className="category-text4">News</p>
       </div>
-
       <img className="banner4" src={img1} alt="Banner Alt Text" />
-
       <div className="card-content4">
-        <h4>Retail Details Issue 1</h4>
+        <h4 className='whiteTitle'>Retail Details Issue</h4>
       </div>
       <div className="document-card-header4">
         <img className="docImage4" src={bankView} alt="" />

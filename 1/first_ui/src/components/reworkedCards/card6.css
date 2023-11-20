@@ -1,103 +1,102 @@
 .card6 {
-    border-radius: 4px;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    height: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .card6 img {
-    max-width: 130%;
-    height: auto;
-    margin-left: -20px;
-    object-fit: cover;
-  }
-  
-  .card-content6 {
-    padding: 0px;
-    text-align: left;
-    margin: 10px;
-  }
-  
-  .description6 {
-    text-align: left;
-    align-items: left;
-  }
-  
-  .card6 h3 {
-    margin-left: 75px;
-    font-size: 18px;
-    text-align: center;
-    position: absolute;
-  }
-  
-  p {
-    margin-bottom: 10px;
-    margin-top: 0px;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  .card6 a {
-    display: block;
-    text-align: left;
-    color:  rgb(167, 241, 241);
-    text-decoration: none;
-    font-weight: bold;
-    margin: 10px;
-  }
-  
-  .card6 a:hover {
-    text-decoration: underline;
-  }
-  
-  .category-text6 {
-    margin: auto;
-    opacity: 75%;
-    background-color: rgb(167, 241, 241);
-    border-radius: 5px;
-  }
-  
-  .category6 {
-    position: absolute;
-    margin-left: 278px;
-    opacity: 85%;
-    background-color: rgb(167, 241, 241);
-    padding: 5px;
-    height: 20px;
-  }
-  
-  .banner6 {
-    padding: 0px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    width: 95%;
-  }
-  
-  h4 {
-    margin-bottom: 0;
-  }
-  
-  .document-card-header6 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 10px;
-    width: 82%;
-    margin: 10px;
-  }
-  
-  .document-card-header6 h3 {
-    padding: 5px;
-    font-size: 18px;
-  }
-  
-  .card-title6 {
-    padding-left: 10px;
-  }
-  
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card6 img {
+  max-width: 130%;
+  height: auto;
+  margin-left: -20px;
+  object-fit: cover;
+}
+
+.card-content6 {
+  padding: 0px;
+  text-align: left;
+  margin: 10px;
+}
+
+.description6 {
+  text-align: left;
+  align-items: left;
+}
+
+.card6 h3 {
+  margin-left: 75px;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.card6 a {
+  display: block;
+  text-align: left;
+  color: rgb(167, 241, 241);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.card6 a:hover {
+  text-decoration: underline;
+}
+
+.category-text6 {
+  margin: auto;
+  opacity: 75%;
+  background-color: rgb(167, 241, 241);
+  border-radius: 5px;
+}
+
+.category6 {
+  position: absolute;
+  margin-left: 278px;
+  opacity: 85%;
+  background-color: rgb(167, 241, 241);
+  padding: 5px;
+  height: 20px;
+}
+
+.banner6 {
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 95%;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.document-card-header6 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  width: 82%;
+  margin: 10px;
+}
+
+.document-card-header6 h3 {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.card-title6 {
+  padding-left: 10px;
+}

@@ -7,3 +7,6 @@ Optional (FE):
 rework search bar to make it functional 
 create directory ; departments ; library page
 
+11.20d
+Removed redundant code.
+Aligned code with prettier

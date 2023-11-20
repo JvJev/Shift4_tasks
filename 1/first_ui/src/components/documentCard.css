@@ -8,22 +8,18 @@
   height: auto;
 }
 
-
-.document-card-header1  {
+.document-card-header1 {
   display: flex;
   align-items: center;
   margin-left: 10px;
   font-size: small;
-
 }
 .document-card-header1 h3 {
   margin-top: 0px;
-  padding:10px;
-
+  padding: 10px;
 }
 
 .docImage {
   width: 35px;
   border-radius: 5px;
 }
-
