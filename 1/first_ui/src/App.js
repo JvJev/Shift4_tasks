@@ -11,6 +11,7 @@ import Card4 from './components/reworkedCards/card4.js';
 import Card5 from './components/reworkedCards/card5.js';
 import Card6 from './components/reworkedCards/card6.js';
 import Card7 from './components/reworkedCards/card7.js';
+import documentCardsData from './components/DocumentCardsData';
 
 function App() {
   return (
@@ -39,51 +40,14 @@ function App() {
               </div>
             </div>
             <div className="document-section">
-              <DocumentCard
-                title="Bank benefits form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726016.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
-              <DocumentCard
-                title="Customer form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
-              <DocumentCard
-                title="Bank presentation"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
-                documentUrl="https://example.com/document2.pdf"
-              />
-              <DocumentCard
-                title="Bank benefits form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
-              <DocumentCard
-                title="Bank service prices"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                documentUrl="https://example.com/document2.pdf"
-              />
-              <DocumentCard
-                title="Customer form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
-              <DocumentCard
-                title="Bank presentation"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726010.png"
-                documentUrl="https://example.com/document2.pdf"
-              />
-              <DocumentCard
-                title="Bank benefits form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/4726/4726040.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
-              <DocumentCard
-                title="Customer form"
-                imageUrl="https://cdn-icons-png.flaticon.com/128/2991/2991108.png"
-                documentUrl="https://example.com/document1.pdf"
-              />
+              {documentCardsData.map((card, index) => (
+                <DocumentCard
+                  key={index} 
+                  title={card.title}
+                  imageUrl={card.imageUrl}
+                  documentUrl={card.documentUrl}
+                />
+              ))}
             </div>
           </div>
         </div>
