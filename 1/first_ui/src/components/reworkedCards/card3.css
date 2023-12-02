@@ -8,6 +8,12 @@
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card3:hover {
+  transform: scale(1.2); 
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2); 
 }
 
 .card3 img {

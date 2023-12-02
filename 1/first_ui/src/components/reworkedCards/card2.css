@@ -8,6 +8,11 @@
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.card2:hover {
+  background-color: rgb(100, 100, 100); 
 }
 
 .card2 img {
