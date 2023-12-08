@@ -13,6 +13,7 @@
 
 .card2:hover {
   background-color: rgb(100, 100, 100); 
+  opacity: 0.5;
 }
 
 .card2 img {
